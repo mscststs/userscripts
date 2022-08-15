@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           全局选中颜色 - 2022/4/16 11:50:38
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document regexp(".*?") {
+  ::selection {
+      color:#fff;
+      background-color: #0664d3 ;
+  }
+  
+  ::-moz-selection {
+      color:#fff;
+      background-color: #0664d3 ;
+  }
+  
+  ::-webkit-selection {
+      color:#fff;
+      background-color: #0664d3 ;
+  }
+  }
